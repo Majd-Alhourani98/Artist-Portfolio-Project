@@ -38,3 +38,30 @@ body {
   /* text-decoration: 1px underline black; */
   border-bottom: 1px solid;
 }
+
+/* Gallery */
+.gallery {
+  padding: 16px;
+}
+
+.card {
+  /* when we have an element that are inline block the space between element is created using the new line */
+  display: inline-block;
+  /* width: calc(49.75% - 20px); */
+  width: 49.88%;
+  /* margin: does not works becuase the margin ouside the element. so we will use the padding instead */
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.card img {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 8px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-weight: 300;
+  margin: 0;
+}
