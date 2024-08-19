@@ -6,18 +6,20 @@
 
 body {
   font-family: "Cormorant", serif;
-  font-weight: 300;
 }
 
 .header {
-  margin: 32px;
+  margin: 48px;
 }
 
 .header_logo {
   display: inline-block;
+  font-weight: 300;
+  margin-right: 32px;
 }
 
 .header_list {
+  vertical-align: middle;
   display: inline-block;
 }
 
@@ -29,5 +31,10 @@ body {
   color: #010101;
   text-decoration: none;
   font-size: 20px;
-  margin: 24px;
+  margin: 0 16px;
+}
+
+.header_list .active {
+  /* text-decoration: 1px underline black; */
+  border-bottom: 1px solid;
 }
